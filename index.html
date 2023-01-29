@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div id="c-logo">
+      <img src="img/logo.png" alt="logo aplicacion"/>
+    </div>
+    <div class="container">
+      <section class="main">
+        <div class="contenedor-area">
+          <textarea name="area" id="input-mensaje" cols="65" rows="25" placeholder="Ingrese mensaje a encriptar" class="font-i"></textarea>
+        </div>
+
+        <div>
+          <div>
+            <span class="icono-info">!</span>
+            <span class="restriccion font-i">Solo letras minúsculas y sin acentos</span>
+          </div>
+          <div class="ctn-botones">
+            <button id="btn-encriptar" class="btn font-i">Encriptar</button>
+            <button id="btn-desencriptar" class="btn font-i">Desencriptar</button>
+          </div>
+        </div>
+      </section>
+      <aside class="contenedor-resultado sinMensaje">
+          <img src="img/Muñeco.png" alt="" id="imagen-resultado"/>
+          <div class="ctn-textos">
+            <span id="resultado-mensaje" class="font-i">Ningún mensaje fue encontrado</span>
+          </div>
+          <div class="ctn-textos">
+            <span class="font-i" id="info-text">Ingrese el texto que desees encriptar o desencriptar</span>
+          </div>
+        </aside>
+
+
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
